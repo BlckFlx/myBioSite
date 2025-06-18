@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <!-- bu kısımda site ile ilgili ayarlar bulunmakta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İlk Sitem</title>
+    <title>Hakkımda</title>
 </head>
 <body>
-    <!-- burası da kendimden bahsettiğim kısım -->
-    <h1><strong>Onur Kuday</strong></h1>
-    <br>
-    <h3>Hakkımda</h3>
-    <p>Merhaba ben Onur Kuday. Antalya'da yaşıyorum. Hikaye tabanlı oyunlar oynamayı ve müzik dinlemeyi seviyorum. En sevdiğim renk yeşildir.Kodluyoruz'un bu eğitim serisi bana ilgili olduğum front-end alanında çok şey kattı ve katmaya da devam ediyor!</p>
+    <!-- Header Start -->
+    <header>
+        <h1><strong>Onur Kuday</strong></h1>
+        <a href="#footer">En Aşağı İn</a>
+        <h3>Hakkımda</h3>
+        <p>Merhaba ben Onur Kuday. Antalya'da yaşıyorum. Hikaye tabanlı oyunlar oynamayı, film izlemeyi ve müzik dinlemeyi seviyorum. En sevdiğim renk yeşildir.Kodluyoruz'un bu eğitim serisi bana ilgili olduğum front-end alanında çok şey kattı ve katmaya da devam ediyor!</p>
+    </header>
+    <!-- Header End -->
+    <hr>
    <div>
-        <h3>İlgi Alanlarım</h3>
+        <h3>Beğendiğim</h3>
+        <!-- Content Start -->
+        <!-- Article Start -->
         <ol>
             <li>
-                <h4><span style="color:green" ><strong>Oyun</strong> </span></h4>
+                <h4><span style="color:green" ><strong>Oyunlar</strong> </span></h4>
                 <ul>
+                    
+                    <article>
                     <li><a href="https://www.ubisoft.com/en-gb/game/far-cry/far-cry-primal" target="_blanc">Far Cry: Primal</a></li>
                     <img src="images/farcryprimal.jpg" alt="Oyun Gorseli">
                     <li>Mobile Legends: Bang Bang</li>
@@ -26,8 +33,12 @@
                     <img width="300" height="168" src="images/nfsmw.jpg" alt="Oyun Gorseli">
                 </ul>
             </li>
+            </article>
+             <!-- Article End -->
+             <!-- Article Start -->
+             <article>
             <li>
-                <h4><span style="color:red">Film</span> </h4>
+                <h4><span style="color:red">Filmler</span> </h4>
                 <ul>
                     <li><a href="https://www.imdb.com/title/tt0454921/" target="_blanc">Umudunu Kaybetme</a> </li>
                     <img width="300" height="168" src="images/umudunu_kaybetme.jpg" alt="Film Gorseli">
@@ -37,8 +48,12 @@
                     <img width="300" height="168" src="images/johnwick.jpg" alt="Film Gorseli">
                 </ul>
             </li>
+            </article>
+            <!-- Article End -->
+            <!-- Article Start -->
+            <article>
             <li>
-                <h4><span style="color:purple">Dizi</span></h4>
+                <h4><span style="color:purple">Diziler</span></h4>
                 <ul>
                     <li><a href="https://www.imdb.com/title/tt0903747/" target="_blanc">Breaking Bad</a></li>
                     <img width="300" height="168" src="images/bbad.jpg" alt="Dizi Gorseli">
@@ -48,8 +63,15 @@
                     <img width="300" height="168" src="images/alice.jpg" alt="Dizi Gorseli">
                 </ul>
             </li>
+        </article>
         </ol>
+        <!-- Article End -->
     </div>
-    
+    <!-- Content End -->
+    <!-- Footer Start -->
+    <!-- NavBar Start -->
+    <h3><a href="contact.html" id="footer">İLETİŞİM</a></h3>
+    <!-- NavBar End -->
+    <!-- Footer End -->
 </body>
 </html>
